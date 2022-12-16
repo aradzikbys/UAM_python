@@ -476,8 +476,6 @@ print(board_5[0][0])
 
 print(board_5[0][0] != ' ')
 
-
-
 def tictactoe_check(board):
 
     # poziome (x3):

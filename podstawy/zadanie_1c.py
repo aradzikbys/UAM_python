@@ -5,8 +5,8 @@
  * Wyświetl sumaryczną długość zmiennych firstname i surname. 
 """
 
-firstname = "Tomasz"
-surname = "Dwojak"
+firstname = "Agata"
+surname = "Radzikowska"
 
 print(f"Nazywam się {firstname} {surname}.")
 

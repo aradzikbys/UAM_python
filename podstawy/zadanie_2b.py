@@ -5,6 +5,16 @@ Korzystając z listy numbers:
 * ile elementów zawiera lista?
 * jak sprawdzisz jaka jest największa wartosc zawarta w liscie?
 """
-
-
 numbers = [1, 8, 6, 6, 6, 7, 2, 0, 3, 0, 2, 3, 7, 0, 7, 2, 0, 3, 9, 4]
+
+#A
+numbers[1]
+
+#B
+print(numbers.count(7))
+
+#C
+print(len(numbers))
+
+#D
+print(max(numbers))

@@ -8,7 +8,6 @@ Korzystając ze poniższego słownika, który zawiera informacje z WikiData nt. 
 * Wyświetl liczbę elementów listy, która znajduje się pod kluczem `occupation`.
 * Wyświetl nazwiko żony A. Mickiewicza.
 """
-
 data = {
     'name': 'Adam',
     'surname': 'Mickiewicz',
@@ -17,9 +16,28 @@ data = {
     'place of birth': 'Zavosse',
     'year of death': 1855,
     'occupation': ['poet', 'professor', 'playwright']
-}
+    }
 
 cecylia_data = {
     'name': 'Cecylia',
-    'surname': 'Szymanowska'.
-}
+    'surname': 'Szymanowska'
+    }
+
+#A
+data['place of birth']
+
+#B
+print(data['year of death'] - data['year of birth'])
+
+#C
+data['place of birth'] = 'Zaosie'
+
+#D
+data['spouse'] = cecylia_data
+print(data)
+
+#E
+print(len(data['occupation']))
+
+#F
+data['spouse']['name']

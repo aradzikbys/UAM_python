@@ -13,11 +13,15 @@ oceny = {
     'Feliks': 5,
     'Grzegorz': 4.5,
     'Izabela': 4.5
-}
-
+    }
 rozklad = {
     5: [],
     4.5: [],
     4: [],
     3: []
-}
+    }
+
+
+for key, value in oceny.items():
+    rozklad[value].append(key)
+print(rozklad)

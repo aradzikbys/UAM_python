@@ -12,3 +12,16 @@ Napisz instrukcję warunką, która wyświetli ocenę studenta w zależności od
 """
 
 points = 85
+
+grades = {
+    range(90,101): '5',
+    range(80,90): '4.5',
+    range(70,80): '3.5',
+    range(60,70): '3.5',
+    range(50,60): '3.0',
+    range(0,60): '2.0'
+    }
+
+for key, value in grades.items():
+    if points in key:
+        print(f'Ocena: {value}.')

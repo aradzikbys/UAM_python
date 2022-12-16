@@ -9,3 +9,5 @@ a = "12"
 b = "35.5"
 c = True
 
+suma = int(a) + float(b) + c
+print(suma)

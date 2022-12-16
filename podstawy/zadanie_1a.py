@@ -6,4 +6,9 @@
  * wyświetl wynik na ekran.
  
 """ 
-pi=3.14
+pi = 3.14
+promien = 12
+pole = pi * promien ** 2
+print(pole)
+
+
